@@ -1,2 +1,2 @@
-# Profile
-Building a website
+# Personal website
+Beginner coder learning HTML
