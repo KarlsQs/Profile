@@ -1,9 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
+<!--Comment no one can see-->
 <title> First website </title>
 </head>
 <body>
-<p> Hello World! </p>
+ <h1> Carolyn's website </h1>
+ <p> paragraph about me </p>
+<ul>
+ <li> home </li>
+ <li> about </li>
+</ul>
+<ol>
+ <li> My favorite #1 </li>
+ <li> My favorite #2 </li>
+ </ol>
 </body>
 </html>
