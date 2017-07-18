@@ -14,15 +14,15 @@ body {
   background-image: url("https://farm5.staticflickr.com/4329/35838356161_be121504f3_k.jpg");
   background-position: center center;
   background: cover;
-  height: 700px;
+  height: 500px;
   width: 100%;
 }
 
 /*Carolyn Herkenham*/
-h1 { color: 'black';
-  font-size: 100px;
+h1 { color: 'white';
+  font-size: 80px;
   font-family: 'Roboto', sans-serif;
-  line-height: 76px;
+  line-height: 50px;
   margin: 0;
   position: relative;
   padding-top: 100px;
@@ -32,10 +32,10 @@ h1 { color: 'black';
    }
 
 /*Student.Scientist.Fledgling*/
-h2 {color: 'black';
-  font-size: 60px;
+h2 {color: 'white';
+  font-size: 45px;
   font-family: 'Roboto', sans-serif;
-  line-height: 76px;
+  line-height: 50px;
   margin: 0;
   position: relative;
   padding-top: 100px;
