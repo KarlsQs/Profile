@@ -1,4 +1,45 @@
 <style>
+*{
+  /*https://fonts.google.com/selection?selection.family=Roboto*/
+  font-family: Roboto, sans-serif;
+  }
+body {
+  padding: 0;
+  margin: 0;
+  background: AliceBlue;
+}
 
+/*Header photo*/
+.header {
+  background-image: url("https://farm5.staticflickr.com/4329/35838356161_be121504f3_k.jpg");
+  height: 400px;
+  background-position: center center;
+  
+/*Carolyn Herkenham*/
+h1 { color: black;
+  font-size: 100px;
+  line-height: 76px;
+  margin: 0;
+  position: relative;
+  padding-top: 100px;
+  text-align: center;
+  text-tranform: uppercase;
+  top: 20%;
+   }
+
+/*Student.Scientist.Fledgling*/
+h2 {color: black;
+  font-size: 60px;
+  line-height: 76px;
+  margin: 0;
+  position: relative;
+  padding-top: 100px;
+  text-align: center;
+  text-tranform: lowercase;
+  top: 20%;
+  
+}
+  
+     
 
 </style>
