@@ -27,8 +27,8 @@ h1 { color: #F8F9F9;
   margin: 0;
   position: relative;
   padding-top: 100px;
-  text-align: center;
-  text-tranform: uppercase;
+  text-align: left;
+  text-tranform: capitalize;
   top: 20%;
    }
 
