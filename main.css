@@ -1,23 +1,27 @@
 <style>
 *{
   /*https://fonts.google.com/selection?selection.family=Roboto*/
-  font-family: Roboto, sans-serif;
+  font-family: 'Roboto', sans-serif;
   }
 body {
   padding: 0;
   margin: 0;
-  background: AliceBlue;
+  background: 'AliceBlue';
 }
 
 /*Header photo*/
 .header {
   background-image: url("https://farm5.staticflickr.com/4329/35838356161_be121504f3_k.jpg");
-  height: 400px;
   background-position: center center;
-  
+  background: cover;
+  height: 700px;
+  width: 100%;
+}
+
 /*Carolyn Herkenham*/
-h1 { color: black;
+h1 { color: 'black';
   font-size: 100px;
+  font-family: 'Roboto', sans-serif;
   line-height: 76px;
   margin: 0;
   position: relative;
@@ -28,8 +32,9 @@ h1 { color: black;
    }
 
 /*Student.Scientist.Fledgling*/
-h2 {color: black;
+h2 {color: 'black';
   font-size: 60px;
+  font-family: 'Roboto', sans-serif;
   line-height: 76px;
   margin: 0;
   position: relative;
