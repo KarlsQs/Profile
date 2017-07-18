@@ -6,7 +6,7 @@
 body {
   padding: 0;
   margin: 0;
-  background: 'AliceBlue';
+  background: #D6EAF8;
 }
 
 /*Header photo*/
@@ -14,16 +14,16 @@ body {
   background-image: url("https://farm5.staticflickr.com/4324/35929713776_225e367839_k.jpg");
   background-position: center center;
   background: cover;
-  height: 500px;
+  height: 700px;
   width: 100%;
-  zoom: 50%;
+  zoom: 70%;
 }
 
 /*Carolyn Herkenham*/
 h1 { color: #F8F9F9;
   font-size: 80px;
   font-family: 'Roboto', sans-serif;
-  line-height: 50px;
+  line-height: 10px;
   margin: 0;
   position: relative;
   padding-top: 100px;
@@ -36,7 +36,7 @@ h1 { color: #F8F9F9;
 h2 {color: #F8F9F9;
   font-size: 45px;
   font-family: 'Roboto', sans-serif;
-  line-height: 50px;
+  line-height: 10px;
   margin: 0;
   position: relative;
   padding-top: 100px;
