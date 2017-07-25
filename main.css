@@ -10,10 +10,9 @@
   font-family: 'Roboto', sans-serif;
   }
 
-body {
+html, body {
   padding: 0;
   margin: 0;
-  background: #D6EAF8;
 }
 
 /*general box dimensions - could be apply to anything*/
@@ -33,7 +32,7 @@ body {
   list-style-type: none;
   margin: 0;
   padding: 20px 0;
- }
+}
  
 /*Font style of navigation bar*/
 .nav li {
@@ -48,11 +47,9 @@ body {
   
 /*background photo*/
 .jumbotron {
-  background: url(https://farm5.staticflickr.com/4324/35929713776_225e367839_k.jpg) no-repeat center center;
+  background: url("https://farm5.staticflickr.com/4324/35929713776_225e367839_k.jpg") no-repeat center center;
   background-size: cover;
   height: 1000px;
-  width: 100%;
-  zoom: 70%;
 }
 
 .main {
@@ -62,7 +59,8 @@ body {
  }
   
 /*Carolyn Herkenham*/
-.main h1 { color: #F8F9F9;
+.main h1 { 
+  color: #F8F9F9;
   font-size: 80px;
   font-family: 'Roboto', sans-serif;
   line-height: 10px;
@@ -72,7 +70,7 @@ body {
   text-align: center;
   text-tranform: capitalize;
   top: 20%;
-   }
+}
 
 /*Student.Scientist.Fledgling
 h2 {color: #F8F9F9;
