@@ -28,22 +28,27 @@ html, body {
 }
   
 /*opening different tabs in navigation bar...I assume*/
-.nav {
+ul {
   list-style-type: none;
   margin: 0;
-  padding: 20px 0;
+  padding: 0;
+  background-color: #333;
+  overflow: hidden;
+}
+
+li {
+  display:inline;
+  float: left
 }
  
-/*Font style of navigation bar*/
-.nav li {
-  color: #fff;
-  display: inline;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 600;
-  font-size: 12px;
-  margin-right: 25px;
-  text-transform: uppercase;
+li a {
+    display: block;
+    color: #FFF;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
+
   
 /*background photo*/
 .jumbotron {
