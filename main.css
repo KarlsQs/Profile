@@ -17,7 +17,6 @@ html, body {
 
 /*general box dimensions - could be apply to anything*/
 .container {
-  max-width: 940px;
   margin: 0 auto;
   padding: 0 10px;
 }  
@@ -44,7 +43,7 @@ li {
 li a {
     display: block;
     color: #FFF;
-    text-align: left;
+    text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
