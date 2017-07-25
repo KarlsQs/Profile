@@ -48,9 +48,8 @@ body {
   
 /*background photo*/
 .jumbotron {
-  background-image: url("https://farm5.staticflickr.com/4324/35929713776_225e367839_k.jpg");
-  background-position: center center;
-  background: cover;
+  background: url(https://farm5.staticflickr.com/4324/35929713776_225e367839_k.jpg) no-repeat center center;
+  background-size: cover;
   height: 1000px;
   width: 100%;
   zoom: 70%;
@@ -63,7 +62,7 @@ body {
  }
   
 /*Carolyn Herkenham*/
-h1 { color: #F8F9F9;
+.main h1 { color: #F8F9F9;
   font-size: 80px;
   font-family: 'Roboto', sans-serif;
   line-height: 10px;
