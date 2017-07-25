@@ -1,16 +1,51 @@
 <style>
+
+/*Targets all code to border-box model*/
+* {
+  box-sizing: border-box;
+}
+
 *{
   /*https://fonts.google.com/selection?selection.family=Roboto*/
   font-family: 'Roboto', sans-serif;
   }
+
 body {
   padding: 0;
   margin: 0;
   background: #D6EAF8;
 }
 
-/*Header photo*/
+/*general box dimensions - could be apply to anything*/
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+  
+/*Navigation bar*/
 .header {
+  background-color: #333; 
+}
+/*opening different tabs in navigation bar...I assume*/
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 20px 0;
+  }
+ 
+/*Font style of navigation bar*/
+.nav li {
+  color: #fff;
+  display: inline;
+  font-family: 'Raleway', sans-serif; /*need to change to fit font family*/
+  font-weight: 600;
+  font-size: 12px;
+  margin-right: 25px;
+  text-transform: uppercase;
+}
+  
+/*background photo*/
+.jumbotron {
   background-image: url("https://farm5.staticflickr.com/4324/35929713776_225e367839_k.jpg");
   background-position: center center;
   background: cover;
@@ -19,6 +54,12 @@ body {
   zoom: 70%;
 }
 
+.main {
+  position: relative;
+  top: 180px;
+  text-align: center;
+ }
+  
 /*Carolyn Herkenham*/
 h1 { color: #F8F9F9;
   font-size: 80px;
